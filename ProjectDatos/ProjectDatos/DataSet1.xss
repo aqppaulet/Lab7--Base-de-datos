@@ -1,0 +1,16 @@
+﻿USE [DBWEB1]
+GO
+
+/****** Object: Table [dbo].[DataCiudad] Script Date: 28/07/2023 01:52:17 a.m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[DataCiudad] (
+    [Id]     INT           NOT NULL,
+    [Ciudad] NVARCHAR (64) NULL
+);
+
+
